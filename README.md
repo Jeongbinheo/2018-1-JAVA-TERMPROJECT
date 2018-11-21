@@ -1,6 +1,6 @@
 # Making 1billion Game
-This game is JAVA_TERMPROJECT OF java_programming class IN 2018SS semester
 
+This game is JAVA_TERMPROJECT OF java_programming class in 2018SS semester
 Our team wants to make simple console game operated by inputing message or number composed of character or some item.
 -----
 ## Class 
