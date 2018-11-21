@@ -5,9 +5,9 @@ Our team wants to make simple console game operated by inputing message or numbe
 ## Class 
 One of the mission was we should make 4 classes at least and also use inheritance necessarily. So our team made 5 classesnamed by Billion, Character,Labor, Stock, Game 
 
-1.[Billion](####1.billion)
+1.[Billion](####1.Billion)
 
-2.[Character](####2.character)
+2.[Character](#2.Character)
 
 3.[Labor](####3.Labor)
 
