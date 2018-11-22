@@ -32,7 +32,7 @@ So I'll introduce loop syntax in Billion class
 
 > while(true) code:
 
-'''c
+```c
 
 while(true){	
 	System.out.print("\n\t<< 무슨 일을 하시겠습니까? (문자로 입력) >>\n\n");
@@ -58,4 +58,4 @@ while(true){
 	.
 	.
 	
-'''
+```
