@@ -115,6 +115,72 @@ From this code below, a method is written for the character.
 -----
 ### **Labor**
 
+I think this class is most simple class any other classes.
+
+We used a random function in this class for the first time.
+
+From this class, random function is used very often, because we express the Probability through the java-code.
+
+I'll explain expression about the probability with real class code.
+
+>> CODE
+```c
+.
+.
+int r = (int)(Math.random()*10);
+.
+.
+
+'''
+
+you can see the r variable at the first of code.
+this variable will have the random number 1 to 10 through Math.random() code
+
+And Ather this code, you can understand how r is available as probability
+
+>> CODE
+```c
+ .
+ . 
+		System.out.print("\n=========================================================\n");
+		if(r < 3){//막노동 250만원 수입
+			System.out.print("\n\t이번 달은 막노동이네... 하 힘들다...\n\n");
+			for(int i=0; i<3; i++){
+				try {Thread.sleep(2000);}
+				catch(Exception e) {System.out.print(e);}
+				System.out.println("\t개미는..뚠뚠..언제나..뚠뚠..열심히일을하네..뚠뚠..");
+			}
+			System.out.println();
+			workInput = 250;
+		}	
+		else if(r>=3 && r<6){//인형탈알바 150만원 수입
+			System.out.println("\n\t이번 달은 인형탈알바네... 힘들지만 재밋게 하자!!!!\n");
+			for(int i=0; i<3; i++){
+				try {Thread.sleep(1000);}
+				catch(Exception e) {System.out.print(e);}
+				System.out.println("\t ...뒤뚱 뒤뚱...");
+			}
+			System.out.println();
+			workInput = 150;
+		}
+		else if(r>=6){//꿀알바 70만원 수입
+			System.out.print("\n\t이번 달은 꿀알바다!!! ㅎㅎㅎ\n");
+			for(int i=0; i<3; i++){
+				try {Thread.sleep(500);}
+				catch(Exception e) {System.out.print(e);}
+				System.out.println("\t ...후다닥 후다닥...");
+			}
+			System.out.println();
+			workInput = 70;
+		}
+
+.
+.
+.
+
+```
+
+
 
 
 
