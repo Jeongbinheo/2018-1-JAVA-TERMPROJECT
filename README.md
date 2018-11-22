@@ -32,9 +32,9 @@ And class is composed of intro(syntax of file input/output) and body(syntax of w
 
 >When I wrote this Billion class, I realized the importance of while(true) infinite loop syntax
 
-So I'll introduce loop syntax in Billion class
+>So I'll introduce loop syntax in Billion class
 
->> while(true) code:
+> while(true) code:
 
 ```c
 
