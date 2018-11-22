@@ -37,7 +37,7 @@ So I'll introduce loop syntax in Billion class
 
 
 
-while(true) code:
+>>-while(true) code:
 
 ```c
 
@@ -87,7 +87,7 @@ So, we could decide other classes have to be inherited by this Character class.
 
 now i'll show the Character Object Constructor code 
 
-CODE:
+>> -CODE:
 ```c
 	Character(int a){//캐릭터 생성자 (1~3 중에 선택)
 		if (a==1){//프로노동자 선택
