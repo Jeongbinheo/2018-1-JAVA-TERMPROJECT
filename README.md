@@ -24,13 +24,17 @@ So our team made 5 classes named by Billion, Character,Labor, Stock, Game
 ### -Billion
 
 This class is real execution code of this game
-
+ 
 So if you want play the game, you should save all class source file in same directory, and compile this class
 
-When I write this class, I realized the importance of while(true) infinite loop syntax
+And class is composed of intro(syntax of file input/output) and body(syntax of while & switch)
+
+
+>When I wrote this Billion class, I realized the importance of while(true) infinite loop syntax
+
 So I'll introduce loop syntax in Billion class
 
-> while(true) code:
+>> while(true) code:
 
 ```c
 
@@ -59,3 +63,4 @@ while(true){
 	.
 	
 ```
+
