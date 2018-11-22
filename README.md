@@ -29,54 +29,31 @@ So if you want play the game, you should save all class source file in same dire
 When I write this class, I realized the importance of while(true) infinite loop syntax
 So I'll introduce loop syntax in Billion class
 
->while ture code:
+> while(true) code:
 '''c
 
 while(true){	
-					System.out.print("\n\t<< 무슨 일을 하시겠습니까? (문자로 입력) >>\n\n");
-					System.out.print("\t\t1. 노동 (자동으로 시작)\n");
-					System.out.print("\t\t2. 투자\n");
-					System.out.print("\t\t3. 미니게임\n");
-					System.out.print("\t\t\t\t 선택 : ");
-					type = s.next();
+	System.out.print("\n\t<< 무슨 일을 하시겠습니까? (문자로 입력) >>\n\n");
+	System.out.print("\t\t1. 노동 (자동으로 시작)\n");
+	System.out.print("\t\t2. 투자\n");
+	System.out.print("\t\t3. 미니게임\n");
+	System.out.print("\t\t\t\t 선택 : ");
+	type = s.next();
 			
-					if(type.equals("노동")) {
-						cntLabor++;
-						break;
-					}
-					else if((type.equals("투자")) && (Character.total != 0)){
-						cntStock++;
-						break;
-					}
-					else if((type.equals("미니게임")) && (Character.total != 0)){
-						cntGame++;
-						break;
-					}
-					else System.out.println(">>잘못 입력하셨네요. 다시 선택해주세요");
-				}
-				switch (type){
-				case "노동" :  	Labor l = new Labor();
-								l.randomLabor();//노동하고 '땡땡만원을 벌었습니다. 잔액 땡땡만원' 출력
-								Character.printCount(cntLabor,cntStock,cntGame); //횟수 출력
-								System.out.print("\n=========================================================\n");
-								break;
-							
-				case "투자" :		Stock sto = new Stock();
-																
-								int [] getinfo = sto.choice();//투자처 선택
-								
-								sto.goStock(getinfo[0],getinfo[1]);//주식 투자 실행 
-									
-								Character.printCount(cntLabor,cntStock,cntGame); //횟수 출력
-								System.out.print("\n=========================================================\n");
-								break;
-								
-				case "미니게임": 	Game G1 = new Game(); 
-								G1.GameS();
-								Character.printCount(cntLabor,cntStock,cntGame); //횟수 출력
-								System.out.print("\n=========================================================\n");
-								break;
-				}
-			}
-
+	if(type.equals("노동")) {
+		cntLabor++;
+		break;
+	}else if((type.equals("투자")) && (Character.total != 0)){
+		cntStock++;
+		break;
+	}
+	else if((type.equals("미니게임")) && (Character.total != 0)){
+		cntGame++;
+		break;
+	}
+	else System.out.println(">>잘못 입력하셨네요. 다시 선택해주세요");
+	.
+	.
+	.
+	
 '''
