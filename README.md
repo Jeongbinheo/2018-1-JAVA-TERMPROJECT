@@ -9,7 +9,7 @@ One of the mission was we should make 4 classes at least and also use inheritanc
 
 So our team made 5 classes named by Billion, Character,Labor, Stock, Game 
 
-1.[Billion](README.md###1.billion)
+1.[Billion](README.mdbillion)
 
 2.[Character](README.md###2.Character)
 
@@ -21,7 +21,7 @@ So our team made 5 classes named by Billion, Character,Labor, Stock, Game
 #
 -----
 
-### 1.Billion
+### Billion
 This class is real execution code of this game
 
 So if you want play the game, you should save all class source file in same directory, and compile this class
