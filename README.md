@@ -11,9 +11,9 @@ So our team made 5 classes named by Billion, Character,Labor, Stock, Game
 
 1.[Billion](README.md#billion)
 
-2.[Character](README.md#-character)
+2.[Character](README.md#character)
 
-3.[Labor](README.md#-labor)
+3.[Labor](README.md#labor)
 
 4.[Stock](README.md#-stock)
 
@@ -74,7 +74,7 @@ If only the player give proper answer to question, the while(true) loop will bre
 
 -----
 
-### -Character
+### **Character**
 
 This class is very important because of inheritance.
 Character class is parent of all other class(except Billion class)
@@ -113,7 +113,7 @@ we let the code make character and print simple message about creating character
 From this code below, a method is written for the character.
 
 -----
-### -Labor
+### **Labor**
 
 
 
