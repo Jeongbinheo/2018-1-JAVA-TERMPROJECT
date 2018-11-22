@@ -30,11 +30,14 @@ So if you want play the game, you should save all class source file in same dire
 And class is composed of intro(syntax of file input/output) and body(syntax of while & switch)
 
 
->When I wrote this Billion class, I realized the importance of while(true) infinite loop syntax
 
->So I'll introduce loop syntax in Billion class
+When I wrote this Billion class, I realized the importance of while(true) infinite loop syntax
 
-> while(true) code:
+So I'll introduce loop syntax in Billion class
+
+
+
+while(true) code:
 
 ```c
 
@@ -63,4 +66,8 @@ while(true){
 	.
 	
 ```
+The point of this code is the way of exit through while loop
 
+We set up 'while(true)' code operate requesing infinite input message when the player give improper answer to question.
+
+If the player give proper answer to question, the while(true) loop will break.
