@@ -137,7 +137,7 @@ you can see the r variable at the first of code.
 
 this variable will have the random number 1 to 10 by using Math.random().
 
-And Ather this code, you can understand how r is available as probability.
+And from after this code, you can understand how r is available as probability.
 
 >> CODE
 ```c
@@ -180,6 +180,14 @@ And Ather this code, you can understand how r is available as probability.
 .
 
 ```
+
+we discrete the case what value is put in r by using syntax of if.
+
+the first case is that r has smaller than 3, and next is r has larger than 3 and smaller than 6 
+
+and the last one is that r has larger than 6.
+
+So we intended each of the case has 33.3% probability.
 
 
 
