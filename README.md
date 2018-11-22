@@ -104,6 +104,8 @@ now i'll show the Character Object Constructor code
 		}	
 	}
 
+```
+
 when you make a Character object by typing proper number input through game playing, 
 
 we let the code make character and print simple message about creating character and about characteristic about chosen character. 
