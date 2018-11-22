@@ -131,7 +131,7 @@ int r = (int)(Math.random()*10);
 .
 .
 
-'''
+```
 
 you can see the r variable at the first of code.
 this variable will have the random number 1 to 10 through Math.random() code
