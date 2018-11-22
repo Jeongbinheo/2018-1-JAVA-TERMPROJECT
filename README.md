@@ -134,9 +134,10 @@ int r = (int)(Math.random()*10);
 ```
 
 you can see the r variable at the first of code.
-this variable will have the random number 1 to 10 through Math.random() code
 
-And Ather this code, you can understand how r is available as probability
+this variable will have the random number 1 to 10 by using Math.random().
+
+And Ather this code, you can understand how r is available as probability.
 
 >> CODE
 ```c
