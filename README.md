@@ -190,6 +190,16 @@ and the last one is that r has larger than 6.
 So we intended each of the case has 33.3% probability.
 
 
+-----
+### **Stock**
+
+This class is very important class to make a money
+
+We set the probability of each stock differently.
+
+Now i'll explain with code of probability.
+
+
 
 
 
