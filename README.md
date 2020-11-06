@@ -7,7 +7,8 @@ Our team wants to make simple console game operated by inputing message or numbe
 
 One of the mission was we should make 4 classes at least and also use inheritance necessarily. 
 
-So our team made 5 classes named by Billion, Character,Labor, Stock, Game 
+So our team made 5 classes named by Billion, Character,Labor, Stock, Game
+(If you click the title, you can move to the explanation of each part right away) 
 
 1.[Billion](README.md#billion)
 
