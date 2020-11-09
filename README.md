@@ -1,7 +1,9 @@
 # Making 1billion Game
 
-This game is JAVA_TERMPROJECT OF java_programming class in 2018SS semester
-Our team wants to make simple console game operated by inputing message or number character or some item.
+**This game is JAVA_TERMPROJECT OF java_programming class in 2018-1 semester.**
+
+**Our team wants to make simple console game operated by inputing message or number character or some item.**
+
 -----
 ## Class 
 
@@ -12,13 +14,18 @@ So our team made 5 classes named by Billion, Character,Labor, Stock, Game
 
 1.[Billion](README.md#billion)
 
+
 2.[Character](README.md#character)
+
 
 3.[Labor](README.md#labor)
 
+
 4.[Stock](README.md#-stock)
 
+
 5.[Game](README.md#-game)
+
 
 -----
 
