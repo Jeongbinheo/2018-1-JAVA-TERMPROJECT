@@ -15,16 +15,16 @@ So our team made 5 classes named by Billion, Character,Labor, Stock, Game
 **1.[Billion](README.md#1-billion)**
 
 
-**2.[Character](README.md#2-character)
+**2.[Character](README.md#2-character)**
 
 
-**3.[Labor](README.md#3-labor)
+**3.[Labor](README.md#3-labor)**
 
 
-**4.[Stock](README.md#4-stock)
+**4.[Stock](README.md#4-stock)**
 
 
-**5.[Game](README.md#5-game)
+**5.[Game](README.md#5-game)**
 
 
 -----
