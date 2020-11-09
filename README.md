@@ -24,23 +24,25 @@ So our team made 5 classes named by Billion, Character,Labor, Stock, Game
 
 ### **Billion**
 
-This class is real execution code of this game
+ This class is real execution code of this game
+ 
  
 So if you want play the game, you should save all class source file in same directory, and compile this class
+
 
 And class is composed of intro(syntax of file input/output) and body(syntax of while & switch)
 
 
-
 When I wrote this Billion class, I realized the importance of while(true) infinite loop syntax
+
 
 So I'll introduce loop syntax in Billion class
 
 
 
->> -**while(true) code:**
+>> - **while(true) code:**
 
-```c
+```java
 
 while(true){	
 	System.out.print("\n\t<< 무슨 일을 하시겠습니까? (문자로 입력) >>\n\n");
@@ -67,11 +69,15 @@ while(true){
 	.
 	
 ```
+
 The point of this code is the way of exit through while loop
+
 
 I set up 'while(true)' code requesting infinite input message if the player give improper answer to question.
 
+
 If only the player give proper answer to question, the while(true) loop will break.
+
 
 -----
 
@@ -88,8 +94,9 @@ So, we could decide other classes have to be inherited by this Character class.
 
 now i'll show the Character Object Constructor code 
 
->> -CODE:
-```c
+>> - **CODE:**
+
+```java
 	Character(int a){//캐릭터 생성자 (1~3 중에 선택)
 		if (a==1){//프로노동자 선택
 			System.out.print(">>프로노동자를 선택하였습니다.\n>>노동으로 2배의 수익을 얻을 수 있습니다.\n>>제일 먼저 노동으로 돈을 벌어야 합니다.");
@@ -114,6 +121,7 @@ we let the code make character and print simple message about creating character
 From this code below, a method is written for the character.
 
 -----
+
 ### **Labor**
 
 I think this class is most simple class any other classes.
@@ -124,8 +132,9 @@ From this class, random function is used very often, because we express the Prob
 
 I'll explain expression about the probability with real class code.
 
->> CODE
-```c
+>> **CODE**
+
+```java
 .
 .
 int r = (int)(Math.random()*10);
@@ -134,14 +143,14 @@ int r = (int)(Math.random()*10);
 
 ```
 
-you can see the r variable at the first of code.
+  you can see the r variable at the first of code.
 
-this variable will have the random number 1 to 10 by using Math.random().
+  this variable will have the random number 1 to 10 by using Math.random().
 
-And from after this code, you can understand how r is available as probability.
+  And from after this code, you can understand how r is available as probability.
 
->> CODE
-```c
+>> **CODE**
+```java
  .
  . 
 		System.out.print("\n=========================================================\n");
@@ -194,11 +203,11 @@ So we intended each of the case has 33.3% probability.
 -----
 ### **Stock**
 
-This class is very important class to make a money
+ This class is very important class to make a money
 
-We set the probability of each stock differently.
+ We set the probability of each stock differently.
 
-Now i'll explain with code of probability.
+ Now i'll explain with code of probability.
 
 
 
