@@ -17,7 +17,7 @@ So our team made 5 classes named by Billion, Character,Labor, Stock, Game
 2.[Character](README.md#2-character)
 
 
-3.[Labor](README.md#labor)
+3.[Labor](README.md#3-labor)
 
 
 4.[Stock](README.md#-stock)
