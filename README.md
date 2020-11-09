@@ -11,7 +11,7 @@ One of the mission was we should make 4 classes at least and also use inheritanc
 So our team made 5 classes named by Billion, Character,Labor, Stock, Game
 (If you click the title, you can move to the explanation of each part right away) 
 
-1.[Billion](README.md#billion)
+1.[Billion](README.md#1-billion)
 
 
 2.[Character](README.md#character)
