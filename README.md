@@ -19,7 +19,7 @@ So our team made 5 classes named by Billion, Character,Labor, Stock, Game
 4.[Stock](README.md#-stock)
 
 5.[Game](README.md#-game)
-#
+
 -----
 
 ### **Billion**
@@ -38,7 +38,7 @@ So I'll introduce loop syntax in Billion class
 
 
 
->>-while(true) code:
+>> -**while(true) code:**
 
 ```c
 
